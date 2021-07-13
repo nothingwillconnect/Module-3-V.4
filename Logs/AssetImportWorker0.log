@@ -12,58 +12,58 @@ AssetImportWorker0
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-55547
+52952
 Successfully changed project path to: /Users/jason/Documents/GitHub/Module-3-V.4
 /Users/jason/Documents/GitHub/Module-3-V.4
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 38.30 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 45.31 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.12f1c1 (5887f62ce680)
 [Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2020.3.12f1c1/Unity.app/Contents/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path /Users/jason/Documents/GitHub/Module-3-V.4/Assets
 GfxDevice: creating device client; threaded=0
-2021-07-06 08:10:51.769 Unity[32324:3865498] Color LCD preferred device: Intel(R) UHD Graphics 630 (low power)
-2021-07-06 08:10:51.769 Unity[32324:3865498] Metal devices available: 2
-2021-07-06 08:10:51.769 Unity[32324:3865498] 0: AMD Radeon Pro 5500M (high power)
-2021-07-06 08:10:51.769 Unity[32324:3865498] 1: Intel(R) UHD Graphics 630 (low power)
-2021-07-06 08:10:51.770 Unity[32324:3865498] Using device AMD Radeon Pro 5500M (high power)
+2021-07-13 08:05:45.258 Unity[41141:4768176] Color LCD preferred device: Intel(R) UHD Graphics 630 (low power)
+2021-07-13 08:05:45.259 Unity[41141:4768176] Metal devices available: 2
+2021-07-13 08:05:45.259 Unity[41141:4768176] 0: AMD Radeon Pro 5500M (high power)
+2021-07-13 08:05:45.259 Unity[41141:4768176] 1: Intel(R) UHD Graphics 630 (low power)
+2021-07-13 08:05:45.259 Unity[41141:4768176] Using device AMD Radeon Pro 5500M (high power)
 Initializing Metal device caps: AMD Radeon Pro 5500M
 Initialize mono
 Mono path[0] = '/Applications/Unity/Hub/Editor/2020.3.12f1c1/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/Unity/Hub/Editor/2020.3.12f1c1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = '/Applications/Unity/Hub/Editor/2020.3.12f1c1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56324
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56141
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity/Hub/Editor/2020.3.12f1c1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Registered in 0.000585 seconds.
+Registered in 0.000547 seconds.
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 36.01 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 37.63 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
 - Completed reload, in  1.941 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.001976 seconds.
+Registered in 0.001660 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.39 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.34 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.216 seconds
+- Completed reload, in  1.214 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launching external process: /Applications/Unity/Hub/Editor/2020.3.12f1c1/Unity.app/Contents/Tools/UnityShaderCompiler
 Launched and connected shader compiler UnityShaderCompiler after 0.01 seconds
-Refreshing native plugins compatible for Editor in 0.36 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.43 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1632 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 195.9 MB.
-System memory in use after: 196.0 MB.
+Unloading 1634 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 199.7 MB.
+System memory in use after: 199.8 MB.
 
-Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 2100.
-Total: 2.660859 ms (FindLiveObjects: 0.403109 ms CreateObjectMapping: 0.098516 ms MarkObjects: 2.060374 ms  DeleteObjects: 0.096921 ms)
+Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 2103.
+Total: 2.375584 ms (FindLiveObjects: 0.247473 ms CreateObjectMapping: 0.083451 ms MarkObjects: 1.917486 ms  DeleteObjects: 0.126060 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -77,976 +77,321 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Scenes/Exercise_3-4.unity
-  artifactKey: Guid(9b40321b565382742ab79670250416d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Exercise_3-4.unity using Guid(9b40321b565382742ab79670250416d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0b88212c73185fdaa1d750354faa759') in 0.012447 seconds 
-  Import took 0.015752 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000295 seconds.
-  path: Assets/Scenes/Exercise_3-3.unity
-  artifactKey: Guid(e642c049cbb4d7a4e9ac86004ae709a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Exercise_3-3.unity using Guid(e642c049cbb4d7a4e9ac86004ae709a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96fb5f414abf941bcfd5266aa4fe65ab') in 0.001789 seconds 
-  Import took 0.005049 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 440.304393 seconds.
-  path: Assets/Models/CarParts/TruckTyre.FBX
-  artifactKey: Guid(3768588589245694eafca79d735753e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/CarParts/TruckTyre.FBX using Guid(3768588589245694eafca79d735753e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36c48d752c1b1dc9377170a58406a30b') in 1.271810 seconds 
-  Import took 1.274998 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000187 seconds.
-  path: Assets/Models/WaterParts/Water/Water/Models/WaterPlane.fbx
-  artifactKey: Guid(ba6a41dc489914734857bb5924eb70ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/WaterParts/Water/Water/Models/WaterPlane.fbx using Guid(ba6a41dc489914734857bb5924eb70ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d43e3e8ae59fb6ae99e4f5e650f6e44') in 0.349284 seconds 
-  Import took 0.351711 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.373450 seconds.
-  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat
-  artifactKey: Guid(e73a58f6e2794ae7b1b7e50b7fb811b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat using Guid(e73a58f6e2794ae7b1b7e50b7fb811b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca0d2861f60500f05bd29199894f7bb5') in 0.532124 seconds 
-  Import took 0.535427 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000174 seconds.
-  path: Assets/Textures/Vehicles/Plastic.mat
-  artifactKey: Guid(00742b481a47f124d85fddc8a77fdcc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Vehicles/Plastic.mat using Guid(00742b481a47f124d85fddc8a77fdcc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4126cbba7054d47d33eeefccfad5dbb') in 0.006419 seconds 
-  Import took 0.008753 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000193 seconds.
-  path: Assets/Models/WaterParts/Water/Water4/Materials/OceanPlaneMaterial.mat
-  artifactKey: Guid(a437a9b380909fa4d98f929428f70388) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/WaterParts/Water/Water4/Materials/OceanPlaneMaterial.mat using Guid(a437a9b380909fa4d98f929428f70388) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b830d5941f52488b7ee0932a887c4463') in 0.007017 seconds 
-  Import took 0.009739 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000182 seconds.
-  path: Assets/Textures/Metal.mat
-  artifactKey: Guid(a3be2f821a89da14c9ca9e15befcade7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Metal.mat using Guid(a3be2f821a89da14c9ca9e15befcade7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d60c7b53783a83ffe25c55449021c31') in 0.007427 seconds 
-  Import took 0.010438 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000274 seconds.
-  path: Assets/Textures/Basic Colors/Red.mat
-  artifactKey: Guid(7fb05eb4af7db98479da8e2ffea27d81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Basic Colors/Red.mat using Guid(7fb05eb4af7db98479da8e2ffea27d81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48cdf82d221b4a7033d6308a450a8857') in 0.010577 seconds 
-  Import took 0.013300 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000194 seconds.
-  path: Assets/Models/PalmTreeParts/Materials/PalmTrees Leafs Mat.mat
-  artifactKey: Guid(2d0b554e7d49b614495903aeed93f746) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/PalmTreeParts/Materials/PalmTrees Leafs Mat.mat using Guid(2d0b554e7d49b614495903aeed93f746) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76a10433e2777d3ff1490b7007ac7b1f') in 0.034952 seconds 
-  Import took 0.038224 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000206 seconds.
-  path: Assets/Models/DeciduousTreeParts/Tree9_leafs.mat
-  artifactKey: Guid(da780beb78a91484aa965294e12f428e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/DeciduousTreeParts/Tree9_leafs.mat using Guid(da780beb78a91484aa965294e12f428e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2744750e74a9061c979d86310e1a7a7c') in 0.020555 seconds 
-  Import took 0.023345 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000215 seconds.
-  path: Assets/Textures/Vehicles/Light.mat
-  artifactKey: Guid(34a12df728295554fbfc96efc84aac90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Vehicles/Light.mat using Guid(34a12df728295554fbfc96efc84aac90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ccacee874d4917e1f058b0f0798f183') in 0.010267 seconds 
-  Import took 0.013336 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000260 seconds.
-  path: Assets/Textures/Tarmac.mat
-  artifactKey: Guid(8f2c3285fefa50a46a18e24d0fd7b84d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Tarmac.mat using Guid(8f2c3285fefa50a46a18e24d0fd7b84d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75045af245b924644cc21d84a605a5bc') in 0.022321 seconds 
-  Import took 0.025382 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000200 seconds.
-  path: Assets/Models/PalmTreeParts/Materials/PalmTrees trunk Mat.mat
-  artifactKey: Guid(f595b971babb1a74ab1c8a38deb8a52d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/PalmTreeParts/Materials/PalmTrees trunk Mat.mat using Guid(f595b971babb1a74ab1c8a38deb8a52d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fe2e2733a8921c7e3a8ef03d0b9cb3d') in 0.023439 seconds 
-  Import took 0.026411 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 11.264737 seconds.
-  path: Assets/Textures/GrassAlbedo.jpg
-  artifactKey: Guid(036623a8b1be67a4da42af9f4deffb2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/GrassAlbedo.jpg using Guid(036623a8b1be67a4da42af9f4deffb2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '961e94e409ff96305b2062670c6c009e') in 1.025054 seconds 
-  Import took 1.028009 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000203 seconds.
-  path: Assets/Textures/TarmacDirtSpecularGloss.tif
-  artifactKey: Guid(c03a03c6197498348b59cd3e396f6c84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/TarmacDirtSpecularGloss.tif using Guid(c03a03c6197498348b59cd3e396f6c84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef555858a45f470c2f8aa377c2665fc5') in 1.021432 seconds 
-  Import took 1.024052 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000211 seconds.
-  path: Assets/Textures/TarmacCautionAlbedo.tif
-  artifactKey: Guid(50f1f49e1480eb64ab2fb5cafe682e0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/TarmacCautionAlbedo.tif using Guid(50f1f49e1480eb64ab2fb5cafe682e0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3d1edecb2dba9779e9be994da6728a1') in 0.008833 seconds 
-  Import took 0.011627 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000257 seconds.
-  path: Assets/Textures/TarmacSpecular.tif
-  artifactKey: Guid(f015c4a3465a75c4bb19179d9a386fc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/TarmacSpecular.tif using Guid(f015c4a3465a75c4bb19179d9a386fc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eafa202cc8070d93c89c3e23d54436de') in 0.010015 seconds 
-  Import took 0.013106 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000323 seconds.
-  path: Assets/Textures/Groundplants 1_D.jpg
-  artifactKey: Guid(7def4f1ef16215342ba8bb0f9e8b057f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Groundplants 1_D.jpg using Guid(7def4f1ef16215342ba8bb0f9e8b057f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '011e81569bb114a755eb2d1377e3a02e') in 0.018726 seconds 
-  Import took 0.022394 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000212 seconds.
-  path: Assets/Textures/StoneAlbedo.tif
-  artifactKey: Guid(a63e7c0d3c6bcb24cbf7d69f38880663) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/StoneAlbedo.tif using Guid(a63e7c0d3c6bcb24cbf7d69f38880663) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2315ba3b631c2342ef3f2b808cd05d6') in 0.012675 seconds 
-  Import took 0.016311 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000273 seconds.
-  path: Assets/Textures/TarmacDirtAlbedo.tif
-  artifactKey: Guid(b84916b71d73cb1499d60802482f4323) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/TarmacDirtAlbedo.tif using Guid(b84916b71d73cb1499d60802482f4323) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93f4eb0368c40072f9d1e1f966ba45fb') in 0.015996 seconds 
-  Import took 0.018931 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000205 seconds.
-  path: Assets/Textures/GrassRockyAlbedo.psd
-  artifactKey: Guid(440eb36db91ca410f800ff3cfe43572f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/GrassRockyAlbedo.psd using Guid(440eb36db91ca410f800ff3cfe43572f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57b63d408f07f03c9c374b00ea9708c6') in 1.101375 seconds 
-  Import took 1.104126 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000213 seconds.
-  path: Assets/Textures/TarmacAlbedo.tif
-  artifactKey: Guid(f8888d01657b65d48ada7b5e347d7ce3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/TarmacAlbedo.tif using Guid(f8888d01657b65d48ada7b5e347d7ce3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60440e3303bd2598790c9a09071099dc') in 0.008985 seconds 
-  Import took 0.011842 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000195 seconds.
-  path: Assets/Textures/GrassFrond01AlbedoAlpha.psd
-  artifactKey: Guid(2c528fec5d95e4ac28cf46399b887662) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/GrassFrond01AlbedoAlpha.psd using Guid(2c528fec5d95e4ac28cf46399b887662) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16b3d9bd7474b4de3f92a7ede4bb4879') in 0.009624 seconds 
-  Import took 0.012855 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000194 seconds.
-  path: Assets/Textures/GrassFrond02AlbedoAlpha.psd
-  artifactKey: Guid(d6cdc79ec19714fcd980ca3f6ac01a0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/GrassFrond02AlbedoAlpha.psd using Guid(d6cdc79ec19714fcd980ca3f6ac01a0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '133af46cc7f6849c3dc9f84657029e0d') in 0.022343 seconds 
-  Import took 0.025893 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000207 seconds.
-  path: Assets/Textures/RockAlbedo.tif
-  artifactKey: Guid(4bf6bf1b073945747b14ef0f91ba63e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/RockAlbedo.tif using Guid(4bf6bf1b073945747b14ef0f91ba63e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '146cd23ccf95775d8d22f963b64a5ab0') in 0.012966 seconds 
-  Import took 0.016134 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 164.541928 seconds.
-  path: Assets/Terrain/Mini_Example_Terrain.asset
-  artifactKey: Guid(c47d9c4bf6c6f4740b02cf45f5e8cbf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Terrain/Mini_Example_Terrain.asset using Guid(c47d9c4bf6c6f4740b02cf45f5e8cbf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '935cb8554089f3c3e38f71deb6d882f0') in 0.315563 seconds 
-  Import took 0.321719 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.328452 seconds.
-  path: Assets/New Terrain 1.asset
-  artifactKey: Guid(a235aa2e88350428f91f673ef51e1af7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/New Terrain 1.asset using Guid(a235aa2e88350428f91f673ef51e1af7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd790d0ae84eaacca7dff16201faf8027') in 0.029186 seconds 
-  Import took 0.032531 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2103.342570 seconds.
-  path: Assets/CactusPack
-  artifactKey: Guid(7c8188e15886a4a3a8226971d1fb28a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CactusPack using Guid(7c8188e15886a4a3a8226971d1fb28a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b843dc4c2bc5cc8a9a9beffa9c0a2a7e') in 0.001079 seconds 
-  Import took 0.004103 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000316 seconds.
-  path: Assets/CactusPack
-  artifactKey: Guid(7c8188e15886a4a3a8226971d1fb28a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CactusPack using Guid(7c8188e15886a4a3a8226971d1fb28a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b843dc4c2bc5cc8a9a9beffa9c0a2a7e') in 0.000773 seconds 
-  Import took 0.003261 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.998239 seconds.
-  path: Assets/CactusPack/Prefabs
-  artifactKey: Guid(5f1d0af9f3867452992b68b62982a3cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CactusPack/Prefabs using Guid(5f1d0af9f3867452992b68b62982a3cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '477ceb392716cda9a784e1ba19fe5bde') in 0.001804 seconds 
-  Import took 0.004233 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.061381 seconds.
-  path: Assets/CactusPack/Prefabs/Cactus_Leafy_01.prefab
-  artifactKey: Guid(3ccd290dacb28bc409d85b2f564c9796) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CactusPack/Prefabs/Cactus_Leafy_01.prefab using Guid(3ccd290dacb28bc409d85b2f564c9796) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c2cc524055bafec78ddc71d85e44991') in 0.481959 seconds 
-  Import took 0.485003 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000190 seconds.
-  path: Assets/CactusPack/Prefabs/Cactus_Leafy_03.prefab
-  artifactKey: Guid(310ca53bdf0d8be47ba991c016cc12dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CactusPack/Prefabs/Cactus_Leafy_03.prefab using Guid(310ca53bdf0d8be47ba991c016cc12dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a182b77cc0b981d40a72676d3becae2') in 0.016809 seconds 
-  Import took 0.019590 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000192 seconds.
-  path: Assets/CactusPack/Prefabs/VertexPlane.prefab
-  artifactKey: Guid(fbb3dfbae8c38e14f9a17c5870e34a41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CactusPack/Prefabs/VertexPlane.prefab using Guid(fbb3dfbae8c38e14f9a17c5870e34a41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a659fd182b2d46cf9667922e36ead887') in 0.311698 seconds 
-  Import took 0.314916 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000166 seconds.
-  path: Assets/CactusPack/Prefabs/Rock_Small_01.prefab
-  artifactKey: Guid(460c985abbd459b40a6554e606202d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CactusPack/Prefabs/Rock_Small_01.prefab using Guid(460c985abbd459b40a6554e606202d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c67f39a5bbd62f6358ebf4e178c2da61') in 0.013159 seconds 
-  Import took 0.015842 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000177 seconds.
-  path: Assets/CactusPack/Prefabs/Cactus_Leafy_05.prefab
-  artifactKey: Guid(f460bdf1ebb4ed04bacb802939d8049c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CactusPack/Prefabs/Cactus_Leafy_05.prefab using Guid(f460bdf1ebb4ed04bacb802939d8049c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de10457e0241ec7d66c035031047ac63') in 0.013211 seconds 
-  Import took 0.015942 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000163 seconds.
-  path: Assets/CactusPack/Prefabs/Rock_Large.prefab
-  artifactKey: Guid(c1091071aa8b35b43bf14b33bc7f5be6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CactusPack/Prefabs/Rock_Large.prefab using Guid(c1091071aa8b35b43bf14b33bc7f5be6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19758602652104a2fbe2a0dbfa4cc9c1') in 0.012444 seconds 
-  Import took 0.015435 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000194 seconds.
-  path: Assets/CactusPack/Prefabs/Cactus_Leafy_04.prefab
-  artifactKey: Guid(7545667c336c236488f9c85271120db9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CactusPack/Prefabs/Cactus_Leafy_04.prefab using Guid(7545667c336c236488f9c85271120db9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3742204fbf8cc5f6689665452ec9ef9c') in 0.016475 seconds 
-  Import took 0.019768 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000244 seconds.
-  path: Assets/CactusPack/Prefabs/Cactus_Short_01.prefab
-  artifactKey: Guid(3170071b601530b49b08f06beca71b57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CactusPack/Prefabs/Cactus_Short_01.prefab using Guid(3170071b601530b49b08f06beca71b57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '230366bf96063a87229ca296c210c2a5') in 0.014543 seconds 
-  Import took 0.018920 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000279 seconds.
-  path: Assets/CactusPack/Prefabs/Cactus_Tall_03.prefab
-  artifactKey: Guid(a66b4d595441d244387e1e12f82d7e7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CactusPack/Prefabs/Cactus_Tall_03.prefab using Guid(a66b4d595441d244387e1e12f82d7e7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ce5f9f2310d747fb718be90050e5a66') in 0.019896 seconds 
-  Import took 0.023243 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000218 seconds.
-  path: Assets/CactusPack/Prefabs/Rock_Small_02.prefab
-  artifactKey: Guid(8c594ad48c4201c4589acbe2ce2cc8c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CactusPack/Prefabs/Rock_Small_02.prefab using Guid(8c594ad48c4201c4589acbe2ce2cc8c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69cb3c8c92dcf8bdf3ab797ed387e263') in 0.015999 seconds 
-  Import took 0.019194 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000195 seconds.
-  path: Assets/CactusPack/Prefabs/Cactus_Leafy_02.prefab
-  artifactKey: Guid(4ca0318c4a50b3849a6d1ff3c69009da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CactusPack/Prefabs/Cactus_Leafy_02.prefab using Guid(4ca0318c4a50b3849a6d1ff3c69009da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ad0c5434cb11a25f688e9da98a7c088') in 0.014423 seconds 
-  Import took 0.017432 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000192 seconds.
-  path: Assets/CactusPack/Prefabs/Cactus_Short_02.prefab
-  artifactKey: Guid(817a1b461c9e9334795fb68fe965138b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CactusPack/Prefabs/Cactus_Short_02.prefab using Guid(817a1b461c9e9334795fb68fe965138b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97df081821fe208a3fc3b123e59f6728') in 0.014881 seconds 
-  Import took 0.018068 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000263 seconds.
-  path: Assets/CactusPack/Prefabs/Cactus_Tall_01.prefab
-  artifactKey: Guid(13db1d4df6986d047a29eb9a35fb321e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CactusPack/Prefabs/Cactus_Tall_01.prefab using Guid(13db1d4df6986d047a29eb9a35fb321e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c28094d69fc79c6a53431bd5a16e3cbd') in 0.013729 seconds 
-  Import took 0.017176 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000211 seconds.
-  path: Assets/CactusPack/Prefabs/Rock_Medium.prefab
-  artifactKey: Guid(aff966e5025eb394f9474186cecbb30d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CactusPack/Prefabs/Rock_Medium.prefab using Guid(aff966e5025eb394f9474186cecbb30d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '367ea200c37918a618705e03261a14ab') in 0.013055 seconds 
-  Import took 0.016659 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000209 seconds.
-  path: Assets/CactusPack/Prefabs/Cactus_Tall_04.prefab
-  artifactKey: Guid(2a54b0efd5ad7c14abbb83677f8b33db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CactusPack/Prefabs/Cactus_Tall_04.prefab using Guid(2a54b0efd5ad7c14abbb83677f8b33db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '053fa21efbc2301eb157d30f483d03f8') in 0.014322 seconds 
-  Import took 0.017614 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000237 seconds.
-  path: Assets/CactusPack/Prefabs/Cactus_Tall_02.prefab
-  artifactKey: Guid(924b0146480cdf94491776d3411b1dda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CactusPack/Prefabs/Cactus_Tall_02.prefab using Guid(924b0146480cdf94491776d3411b1dda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '887c0b9a063d7708b6b1679b42cb58b3') in 0.014374 seconds 
-  Import took 0.017708 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000196 seconds.
-  path: Assets/CactusPack/Prefabs/Rock_Heavy.prefab
-  artifactKey: Guid(51cf289f761cc8e4eab7fd75ddb0e9a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CactusPack/Prefabs/Rock_Heavy.prefab using Guid(51cf289f761cc8e4eab7fd75ddb0e9a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '891ae0e150cb56bfcb870b751115889d') in 0.018955 seconds 
-  Import took 0.022217 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000180 seconds.
-  path: Assets/CactusPack/Prefabs/Cactus_Short_03.prefab
-  artifactKey: Guid(f3716af6cb5b4e249abf036d9fa479c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CactusPack/Prefabs/Cactus_Short_03.prefab using Guid(f3716af6cb5b4e249abf036d9fa479c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17acfd0bfedaf0b4d502fe9141ea2862') in 0.019843 seconds 
-  Import took 0.022698 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000228 seconds.
-  path: Assets/CactusPack/Prefabs/Rock_Cone.prefab
-  artifactKey: Guid(491af40ffa3f3dd47b8f5f5ddc473bf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CactusPack/Prefabs/Rock_Cone.prefab using Guid(491af40ffa3f3dd47b8f5f5ddc473bf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd67f2c9eb56286302316f886f31cc163') in 0.015882 seconds 
-  Import took 0.019200 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 696.887248 seconds.
-  path: Assets/CactusPack/Meshes/Cactus_Leafy_01.fbx
-  artifactKey: Guid(ec6716cccdfa5ef44b7c08e702ed6df1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CactusPack/Meshes/Cactus_Leafy_01.fbx using Guid(ec6716cccdfa5ef44b7c08e702ed6df1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c612e84b76918b23aad52bd540faba0b') in 0.031149 seconds 
-  Import took 0.034281 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000189 seconds.
-  path: Assets/CactusPack/Meshes/VertexPlane.FBX
-  artifactKey: Guid(82e2cf03896e2fd4e9b8eb23c2b286bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CactusPack/Meshes/VertexPlane.FBX using Guid(82e2cf03896e2fd4e9b8eb23c2b286bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5895da1bb5e01994abca91324a27a53') in 0.071579 seconds 
-  Import took 0.074350 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000218 seconds.
-  path: Assets/CactusPack/Meshes/Cactus_Short_01.fbx
-  artifactKey: Guid(ba2ad16784e1bf345bd347541176af0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CactusPack/Meshes/Cactus_Short_01.fbx using Guid(ba2ad16784e1bf345bd347541176af0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1124260c213ef6d5de86dc9bd648faee') in 0.023323 seconds 
-  Import took 0.027694 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000276 seconds.
-  path: Assets/CactusPack/Meshes/Rock_Large.fbx
-  artifactKey: Guid(6b20709ad96aeee4e876180d8ddc4395) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CactusPack/Meshes/Rock_Large.fbx using Guid(6b20709ad96aeee4e876180d8ddc4395) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '757acf3eb97adeba52e0422a17a80bc4') in 0.028301 seconds 
-  Import took 0.032324 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000268 seconds.
-  path: Assets/CactusPack/Meshes/Cactus_Leafy_04.fbx
-  artifactKey: Guid(6073269b32af919479c20885480b14fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CactusPack/Meshes/Cactus_Leafy_04.fbx using Guid(6073269b32af919479c20885480b14fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06aeb23b6be057e2f20a6d3825899117') in 0.018700 seconds 
-  Import took 0.022456 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000226 seconds.
-  path: Assets/CactusPack/Meshes/Rock_Small_01.fbx
-  artifactKey: Guid(91ac6d83ec9f1d046a1276145fab1029) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CactusPack/Meshes/Rock_Small_01.fbx using Guid(91ac6d83ec9f1d046a1276145fab1029) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47ce1ae6da2f5c903792727bb8d1f507') in 0.023197 seconds 
-  Import took 0.026665 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000306 seconds.
-  path: Assets/CactusPack/Meshes/Cactus_Tall_02.fbx
-  artifactKey: Guid(5f4cf482032eaf149afeede8e4d5f7a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CactusPack/Meshes/Cactus_Tall_02.fbx using Guid(5f4cf482032eaf149afeede8e4d5f7a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38547bb5659f557b67454d009505b2fc') in 0.026673 seconds 
-  Import took 0.030067 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000245 seconds.
-  path: Assets/CactusPack/Meshes/Cactus_Short_03.fbx
-  artifactKey: Guid(42c6802f5720aa945948122911a29ce7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CactusPack/Meshes/Cactus_Short_03.fbx using Guid(42c6802f5720aa945948122911a29ce7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fcecbecb0e02b924736f0e41c923dba') in 0.020014 seconds 
-  Import took 0.023243 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000214 seconds.
-  path: Assets/CactusPack/Meshes/Rock_Small_02.fbx
-  artifactKey: Guid(18fe8c3211a530742a4011f9075d11f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CactusPack/Meshes/Rock_Small_02.fbx using Guid(18fe8c3211a530742a4011f9075d11f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7642551ad27d49d2bb06066722477c4') in 0.017525 seconds 
-  Import took 0.020699 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000209 seconds.
-  path: Assets/CactusPack/Meshes/Cactus_Tall_04.fbx
-  artifactKey: Guid(2ce2911191d61a24ea50d6847b4a5c9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CactusPack/Meshes/Cactus_Tall_04.fbx using Guid(2ce2911191d61a24ea50d6847b4a5c9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05fe45bb76ed507eb3d1a1d27173b352') in 0.029133 seconds 
-  Import took 0.032252 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000189 seconds.
-  path: Assets/CactusPack/Meshes/Cactus_Leafy_05.fbx
-  artifactKey: Guid(488a3ec7c3742d741a86b93690985912) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CactusPack/Meshes/Cactus_Leafy_05.fbx using Guid(488a3ec7c3742d741a86b93690985912) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c681d7681464f151825efdf2c87819e') in 0.028806 seconds 
-  Import took 0.031868 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000209 seconds.
-  path: Assets/CactusPack/Meshes/Cactus_Leafy_03.fbx
-  artifactKey: Guid(c746a95794cd80d43aa4fcc5c82d56ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CactusPack/Meshes/Cactus_Leafy_03.fbx using Guid(c746a95794cd80d43aa4fcc5c82d56ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f954e7b3696a62f9277f73a3bb2a74cb') in 0.018012 seconds 
-  Import took 0.021119 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000298 seconds.
-  path: Assets/CactusPack/Meshes/Rock_Medium.fbx
-  artifactKey: Guid(3acf15a9d1e36b84ca35b8f1787f9c6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CactusPack/Meshes/Rock_Medium.fbx using Guid(3acf15a9d1e36b84ca35b8f1787f9c6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcee8f690e87f1b10070cee9172b99d2') in 0.034298 seconds 
-  Import took 0.037624 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000193 seconds.
-  path: Assets/CactusPack/Meshes/Rock_Cone.fbx
-  artifactKey: Guid(05d8dde5b000ac24180fe37b83d41c05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CactusPack/Meshes/Rock_Cone.fbx using Guid(05d8dde5b000ac24180fe37b83d41c05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb4578e9060a2ae1b11255aed28a05b1') in 0.023930 seconds 
-  Import took 0.028932 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000272 seconds.
-  path: Assets/CactusPack/Meshes/Cactus_Tall_01.fbx
-  artifactKey: Guid(dee1f2cda9492694e9124ff28f53c5f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CactusPack/Meshes/Cactus_Tall_01.fbx using Guid(dee1f2cda9492694e9124ff28f53c5f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4741daa47b7ed9e34c2e7b6f1d898f6') in 0.042708 seconds 
-  Import took 0.046584 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000213 seconds.
-  path: Assets/CactusPack/Meshes/Cactus_Tall_03.fbx
-  artifactKey: Guid(83969742e794b1e46a69d66f573bf098) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CactusPack/Meshes/Cactus_Tall_03.fbx using Guid(83969742e794b1e46a69d66f573bf098) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aff41e4e63f549a70f4bc32703d357f9') in 0.017319 seconds 
-  Import took 0.020556 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000272 seconds.
-  path: Assets/CactusPack/Meshes/Cactus_Leafy_02.fbx
-  artifactKey: Guid(47aa2d69a1aafc64cad913e0aaf80735) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CactusPack/Meshes/Cactus_Leafy_02.fbx using Guid(47aa2d69a1aafc64cad913e0aaf80735) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09bf91f3a8e3797f159487eb14f22083') in 0.028915 seconds 
-  Import took 0.033319 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000244 seconds.
-  path: Assets/CactusPack/Meshes/Cactus_Short_02.fbx
-  artifactKey: Guid(c1d006dbe60be9f498112dffd368e58d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CactusPack/Meshes/Cactus_Short_02.fbx using Guid(c1d006dbe60be9f498112dffd368e58d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57f4b55bf937ff37dfdf4ebd753e7429') in 0.024890 seconds 
-  Import took 0.028221 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000351 seconds.
-  path: Assets/CactusPack/Meshes/Rock_Heavy.fbx
-  artifactKey: Guid(1a4b7e855ec2aee48abb604abd385373) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CactusPack/Meshes/Rock_Heavy.fbx using Guid(1a4b7e855ec2aee48abb604abd385373) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f53a12c61365c19d41c5a825d184423') in 0.021927 seconds 
-  Import took 0.025430 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.878389 seconds.
-  path: Assets/CactusPack/Prefabs/Sprites/Cactus_Leafy_01_SPR.prefab
-  artifactKey: Guid(6343169fdb7c3e5429ce4b6928d1636a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CactusPack/Prefabs/Sprites/Cactus_Leafy_01_SPR.prefab using Guid(6343169fdb7c3e5429ce4b6928d1636a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d77cce299fb4c4fd616bc7291f73c7b') in 0.091005 seconds 
-  Import took 0.093829 seconds .
-
+  path: Assets/Scenes/Exercise_3-5.unity
+  artifactKey: Guid(867ebd7509cc4c344b3ffcd932013705) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Exercise_3-5.unity using Guid(867ebd7509cc4c344b3ffcd932013705) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa04ba38702944094f7fe611f943c72f') in 0.012841 seconds 
+  Import took 0.015823 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.770692 seconds.
+  path: Assets/Scenes/Test.unity
+  artifactKey: Guid(4d715161bc35849ce9415aacd8fc38bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Test.unity using Guid(4d715161bc35849ce9415aacd8fc38bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f65e84a301a06ee7aa8b79ff8614c3a') in 0.001740 seconds 
+  Import took 0.005309 seconds .
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 2.42 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 11 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 163.4 MB.
+System memory in use after: 163.5 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2103.
+Total: 2.085689 ms (FindLiveObjects: 0.171525 ms CreateObjectMapping: 0.055279 ms MarkObjects: 1.843931 ms  DeleteObjects: 0.014300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 19.947780 seconds.
+  path: Assets/Scenes/Exercise_3-2.unity
+  artifactKey: Guid(081cec0fe519fbf4bb10a2660f03c606) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Exercise_3-2.unity using Guid(081cec0fe519fbf4bb10a2660f03c606) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '817ec6a1401e3cb6ee8791ff1b7392a9') in 0.001249 seconds 
+  Import took 0.003753 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002372 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.42 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.127 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.42 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1573 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 194.8 MB.
+System memory in use after: 194.9 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 2106.
+Total: 1.765186 ms (FindLiveObjects: 0.152148 ms CreateObjectMapping: 0.047605 ms MarkObjects: 1.542402 ms  DeleteObjects: 0.022185 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003413 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.41 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.555 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.44 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1573 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 195.3 MB.
+System memory in use after: 195.5 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 2109.
+Total: 2.608447 ms (FindLiveObjects: 0.353929 ms CreateObjectMapping: 0.095993 ms MarkObjects: 2.133049 ms  DeleteObjects: 0.023414 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000229 seconds.
-  path: Assets/CactusPack/Prefabs/Sprites/Cactus_Leafy_05_SPR.prefab
-  artifactKey: Guid(210d7c5e18ff7ac4880424d44943f801) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CactusPack/Prefabs/Sprites/Cactus_Leafy_05_SPR.prefab using Guid(210d7c5e18ff7ac4880424d44943f801) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '900401b76498e4f7f2850d1c9077c580') in 0.015781 seconds 
-  Import took 0.018560 seconds .
+  Time since last request: 724.858027 seconds.
+  path: Assets/Textures/Vehicles/Tyre.mat
+  artifactKey: Guid(e9b90d2e67f6dc443ba19bc1e8e9da2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Vehicles/Tyre.mat using Guid(e9b90d2e67f6dc443ba19bc1e8e9da2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa080c7e0c23b6e61957ba86c01c8d82') in 1.460285 seconds 
+  Import took 1.465724 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000171 seconds.
-  path: Assets/CactusPack/Prefabs/Sprites/Cactus_Short_03_SPR.prefab
-  artifactKey: Guid(df2b851f595fb274d96fbc32fa5a04da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CactusPack/Prefabs/Sprites/Cactus_Short_03_SPR.prefab using Guid(df2b851f595fb274d96fbc32fa5a04da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0977d316af12c10d80d9eb0187f5d23e') in 0.021728 seconds 
-  Import took 0.024429 seconds .
+  Time since last request: 0.000225 seconds.
+  path: Assets/CactusPack/Meshes/Materials/VertexPlane_Mat.mat
+  artifactKey: Guid(f1cdc512aaea7674fa89203d6f3fab11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CactusPack/Meshes/Materials/VertexPlane_Mat.mat using Guid(f1cdc512aaea7674fa89203d6f3fab11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ab3ef34ab82080709202af1a004c2b6') in 0.136104 seconds 
+  Import took 0.138648 seconds .
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000188 seconds.
-  path: Assets/CactusPack/Prefabs/Sprites/Rock_Small_02_SPR.prefab
-  artifactKey: Guid(5d36b60314f97e2408669100196067ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CactusPack/Prefabs/Sprites/Rock_Small_02_SPR.prefab using Guid(5d36b60314f97e2408669100196067ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25608bd09487c2f55415a1ed9f9ee15b') in 0.021011 seconds 
-  Import took 0.024141 seconds .
+  path: Assets/Models/WaterParts/Water/Water/Materials/WaterProNighttime.mat
+  artifactKey: Guid(e633a20421c47426aa04444234225b69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/WaterParts/Water/Water/Materials/WaterProNighttime.mat using Guid(e633a20421c47426aa04444234225b69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e66dca95e562310c1ff320616f3d2b51') in 0.010874 seconds 
+  Import took 0.013400 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000229 seconds.
-  path: Assets/CactusPack/Prefabs/Sprites/Cactus_Tall_04_SPR.prefab
-  artifactKey: Guid(307e7b37b9e5dab429b3bea97f70857d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CactusPack/Prefabs/Sprites/Cactus_Tall_04_SPR.prefab using Guid(307e7b37b9e5dab429b3bea97f70857d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '602aa682563db5ede88073100942b45e') in 0.023090 seconds 
-  Import took 0.026322 seconds .
+  Time since last request: 0.000168 seconds.
+  path: Assets/Models/WaterParts/Water/Water4/Materials/Water4Advanced.mat
+  artifactKey: Guid(a5f2339f242f6cc41a982ec55ea3c201) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/WaterParts/Water/Water4/Materials/Water4Advanced.mat using Guid(a5f2339f242f6cc41a982ec55ea3c201) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90237000dfdc94b211b71602c35ae96d') in 0.014080 seconds 
+  Import took 0.016825 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000219 seconds.
-  path: Assets/CactusPack/Prefabs/Sprites/Cactus_Leafy_02_SPR.prefab
-  artifactKey: Guid(23e27131e182a444dabb093257ca1d27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CactusPack/Prefabs/Sprites/Cactus_Leafy_02_SPR.prefab using Guid(23e27131e182a444dabb093257ca1d27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c31e3d80166b5edafa6dc85697c44e4c') in 0.021388 seconds 
-  Import took 0.024280 seconds .
+  Time since last request: 0.000176 seconds.
+  path: Assets/Models/WaterParts/Water/Water/Materials/WaterProDaytime.mat
+  artifactKey: Guid(7350b65a6431f604a8496c39db1ac9c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/WaterParts/Water/Water/Materials/WaterProDaytime.mat using Guid(7350b65a6431f604a8496c39db1ac9c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98b3a4f159ef853b1d1f1fe509a2d79b') in 0.008848 seconds 
+  Import took 0.011377 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000201 seconds.
-  path: Assets/CactusPack/Prefabs/Sprites/Cactus_Tall_01_SPR.prefab
-  artifactKey: Guid(6d09cad20aa269845aa2a7b1dc40da21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CactusPack/Prefabs/Sprites/Cactus_Tall_01_SPR.prefab using Guid(6d09cad20aa269845aa2a7b1dc40da21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94a0c56868cb0b100c29d029a14f9ea4') in 0.022446 seconds 
-  Import took 0.025457 seconds .
+  Time since last request: 0.000140 seconds.
+  path: Assets/Models/WaterParts/Water (Basic)/Materials/WaterDefault.mat
+  artifactKey: Guid(30abebfd9bf1c49d8a2d26e61e66bc15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/WaterParts/Water (Basic)/Materials/WaterDefault.mat using Guid(30abebfd9bf1c49d8a2d26e61e66bc15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd732cd4c0ed325c37efa284f7c677faf') in 0.010773 seconds 
+  Import took 0.013299 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000193 seconds.
-  path: Assets/CactusPack/Prefabs/Sprites/Rock_Medium_SPR.prefab
-  artifactKey: Guid(9aab8cf8a9d1a5f44ab5af9cbd900c5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CactusPack/Prefabs/Sprites/Rock_Medium_SPR.prefab using Guid(9aab8cf8a9d1a5f44ab5af9cbd900c5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07327cd6542b2c6946e1ebb03902641a') in 0.021218 seconds 
-  Import took 0.024002 seconds .
+  Time since last request: 0.000174 seconds.
+  path: Assets/Textures/Vehicles/VehicleUnderside.mat
+  artifactKey: Guid(7144ce432a49daa45a1c70dab9769ffe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Vehicles/VehicleUnderside.mat using Guid(7144ce432a49daa45a1c70dab9769ffe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5881920dc88f2bfc29129292fd63328') in 0.008120 seconds 
+  Import took 0.010742 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000209 seconds.
-  path: Assets/CactusPack/Prefabs/Sprites/Cactus_Leafy_03_SPR.prefab
-  artifactKey: Guid(3a6caa437f2f3754b999e5a723c7bc63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CactusPack/Prefabs/Sprites/Cactus_Leafy_03_SPR.prefab using Guid(3a6caa437f2f3754b999e5a723c7bc63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5ce581a766e7b76ace78b6ba0cc0ae2') in 0.020611 seconds 
-  Import took 0.023682 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000243 seconds.
-  path: Assets/CactusPack/Prefabs/Sprites/Cactus_Short_01_SPR.prefab
-  artifactKey: Guid(3c1a66d6cbc6a7f45843dab0aed99788) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CactusPack/Prefabs/Sprites/Cactus_Short_01_SPR.prefab using Guid(3c1a66d6cbc6a7f45843dab0aed99788) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48427406130d07eb58b48bed7787f9f0') in 0.023106 seconds 
-  Import took 0.026063 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000215 seconds.
-  path: Assets/CactusPack/Prefabs/Sprites/Rock_Cone_SPR.prefab
-  artifactKey: Guid(a839f37807922074992531fd9663f1f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CactusPack/Prefabs/Sprites/Rock_Cone_SPR.prefab using Guid(a839f37807922074992531fd9663f1f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5c1318f9f1b1e0cc0617c4823a16ec0') in 0.025216 seconds 
-  Import took 0.028079 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000194 seconds.
-  path: Assets/CactusPack/Prefabs/Sprites/Cactus_Leafy_04_SPR.prefab
-  artifactKey: Guid(8530ce626d3498343b44e2f35495eeb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CactusPack/Prefabs/Sprites/Cactus_Leafy_04_SPR.prefab using Guid(8530ce626d3498343b44e2f35495eeb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c13f1a6bfc2ec34a432a2d3d825d27cb') in 0.019125 seconds 
-  Import took 0.021917 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000222 seconds.
-  path: Assets/CactusPack/Prefabs/Sprites/Rock_Small_01_SPR.prefab
-  artifactKey: Guid(07459c3fe1b9def45b2a409f28302e20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CactusPack/Prefabs/Sprites/Rock_Small_01_SPR.prefab using Guid(07459c3fe1b9def45b2a409f28302e20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82892928211f7e44907c41f5c176c8a2') in 0.024389 seconds 
-  Import took 0.027793 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000283 seconds.
-  path: Assets/CactusPack/Prefabs/Sprites/Cactus_Short_02_SPR.prefab
-  artifactKey: Guid(436b19f2e9c0d314d863eac5c1f59fe0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CactusPack/Prefabs/Sprites/Cactus_Short_02_SPR.prefab using Guid(436b19f2e9c0d314d863eac5c1f59fe0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21c99f5739a25664a2bb1ecf814a1bcd') in 0.021525 seconds 
-  Import took 0.024687 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000219 seconds.
-  path: Assets/CactusPack/Prefabs/Sprites/Cactus_Tall_02_SPR.prefab
-  artifactKey: Guid(6484221347de3074d8878f2ff4364052) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CactusPack/Prefabs/Sprites/Cactus_Tall_02_SPR.prefab using Guid(6484221347de3074d8878f2ff4364052) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a619b79c105bec77a1b81381ff7e24f5') in 0.020250 seconds 
-  Import took 0.023289 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000299 seconds.
-  path: Assets/CactusPack/Prefabs/Sprites/Rock_Heavy_SPR.prefab
-  artifactKey: Guid(5dee555074d788244b68758fc138f96b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CactusPack/Prefabs/Sprites/Rock_Heavy_SPR.prefab using Guid(5dee555074d788244b68758fc138f96b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aee2fe3045b5e3776751a0e0b6bf5705') in 0.029318 seconds 
-  Import took 0.032425 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000307 seconds.
-  path: Assets/CactusPack/Prefabs/Sprites/Cactus_Tall_03_SPR.prefab
-  artifactKey: Guid(131a8a87560d6a24c948e0a62a1924e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CactusPack/Prefabs/Sprites/Cactus_Tall_03_SPR.prefab using Guid(131a8a87560d6a24c948e0a62a1924e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91aa624cd9dfef8730bbcfa6fda88ddc') in 0.023864 seconds 
-  Import took 0.029002 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000329 seconds.
-  path: Assets/CactusPack/Prefabs/Sprites/Rock_Large_SPR.prefab
-  artifactKey: Guid(b040f51610eb81b49bc5e38862e3191c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CactusPack/Prefabs/Sprites/Rock_Large_SPR.prefab using Guid(b040f51610eb81b49bc5e38862e3191c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '667af67715a91135d95f66bee6d813d3') in 0.023043 seconds 
-  Import took 0.028062 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.150577 seconds.
-  path: Assets/CactusPack/Meshes/Sprites/Cactus_Leafy_01_SPR.fbx
-  artifactKey: Guid(bb166efd54e09e44d9212d438881df10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CactusPack/Meshes/Sprites/Cactus_Leafy_01_SPR.fbx using Guid(bb166efd54e09e44d9212d438881df10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a975bdcc0930af334c2bdcdc2101ad01') in 0.019592 seconds 
-  Import took 0.022849 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000173 seconds.
-  path: Assets/CactusPack/Meshes/Sprites/Cactus_Short_02_SPR.fbx
-  artifactKey: Guid(0e41bd8fd37e48b40bfdc1a79a81694c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CactusPack/Meshes/Sprites/Cactus_Short_02_SPR.fbx using Guid(0e41bd8fd37e48b40bfdc1a79a81694c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a03f52fc5322464ff34c1beebfb8b61d') in 0.011119 seconds 
-  Import took 0.013842 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000205 seconds.
-  path: Assets/CactusPack/Meshes/Sprites/Cactus_Leafy_04_SPR_COL.fbx
-  artifactKey: Guid(732ee295cb54510468f444873824a9bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CactusPack/Meshes/Sprites/Cactus_Leafy_04_SPR_COL.fbx using Guid(732ee295cb54510468f444873824a9bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9847db5aa1c5abcd742459bf41d4cdd9') in 0.030488 seconds 
-  Import took 0.034558 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000260 seconds.
-  path: Assets/CactusPack/Meshes/Sprites/Rock_Cone_SPR_COL.fbx
-  artifactKey: Guid(6f250696873bcaf45ac36b33014f6b4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CactusPack/Meshes/Sprites/Rock_Cone_SPR_COL.fbx using Guid(6f250696873bcaf45ac36b33014f6b4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f3bec25883ef892ecfb8e1a93535fbb') in 0.021333 seconds 
-  Import took 0.024395 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000195 seconds.
-  path: Assets/CactusPack/Meshes/Sprites/Cactus_Short_01_SPR_COL.fbx
-  artifactKey: Guid(68c5e864b0b427247b6f7e483bbdefc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CactusPack/Meshes/Sprites/Cactus_Short_01_SPR_COL.fbx using Guid(68c5e864b0b427247b6f7e483bbdefc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b75e1ec344e2d561d703d211166182f') in 0.016600 seconds 
-  Import took 0.019335 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000215 seconds.
-  path: Assets/CactusPack/Meshes/Sprites/Cactus_Tall_02_SPR.fbx
-  artifactKey: Guid(d6ff0868b9c28da4f86b40cc33772b24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CactusPack/Meshes/Sprites/Cactus_Tall_02_SPR.fbx using Guid(d6ff0868b9c28da4f86b40cc33772b24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ba0f9d64785e930366afc27f7c5349e') in 0.027729 seconds 
-  Import took 0.031319 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000259 seconds.
-  path: Assets/CactusPack/Meshes/Sprites/Cactus_Leafy_03_SPR.fbx
-  artifactKey: Guid(24e444f8ca9ca3e498ace0ead7b26fb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CactusPack/Meshes/Sprites/Cactus_Leafy_03_SPR.fbx using Guid(24e444f8ca9ca3e498ace0ead7b26fb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86fef9dc79f5c236373a22bc1523ea17') in 0.015248 seconds 
-  Import took 0.018144 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000210 seconds.
-  path: Assets/CactusPack/Meshes/Sprites/Cactus_Leafy_01_SPR_COL.fbx
-  artifactKey: Guid(dd89b379f359be84bb93c69ba2a1ddd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CactusPack/Meshes/Sprites/Cactus_Leafy_01_SPR_COL.fbx using Guid(dd89b379f359be84bb93c69ba2a1ddd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c8f1087974f92a5ed8b1116a680c3eb') in 0.021847 seconds 
-  Import took 0.024560 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000206 seconds.
-  path: Assets/CactusPack/Meshes/Sprites/Rock_Heavy_SPR.fbx
-  artifactKey: Guid(d1be977db065f224fa0ca393823ea994) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CactusPack/Meshes/Sprites/Rock_Heavy_SPR.fbx using Guid(d1be977db065f224fa0ca393823ea994) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ede189432edecf0e6de071a05ad945d0') in 0.020347 seconds 
-  Import took 0.023814 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000246 seconds.
-  path: Assets/CactusPack/Meshes/Sprites/Cactus_Tall_03_SPR.fbx
-  artifactKey: Guid(6b85d31d5f014734783cd624208a7787) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CactusPack/Meshes/Sprites/Cactus_Tall_03_SPR.fbx using Guid(6b85d31d5f014734783cd624208a7787) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27aa6ceadc9adeb30b2cac352303c896') in 0.023248 seconds 
-  Import took 0.027108 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000233 seconds.
-  path: Assets/CactusPack/Meshes/Sprites/Rock_Heavy_SPR_COL.fbx
-  artifactKey: Guid(6713c468ec3d7c548a07aafe909e2e57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CactusPack/Meshes/Sprites/Rock_Heavy_SPR_COL.fbx using Guid(6713c468ec3d7c548a07aafe909e2e57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cde541b7abb817d1ec6c24be280a36b3') in 0.024692 seconds 
-  Import took 0.027827 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000244 seconds.
-  path: Assets/CactusPack/Meshes/Sprites/Cactus_Short_03_SPR.fbx
-  artifactKey: Guid(2b863929c85ad30449515744af456c0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CactusPack/Meshes/Sprites/Cactus_Short_03_SPR.fbx using Guid(2b863929c85ad30449515744af456c0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01dd15d1c400ae30232ea600448ee016') in 0.017981 seconds 
-  Import took 0.021689 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000243 seconds.
-  path: Assets/CactusPack/Meshes/Sprites/Cactus_Short_02_SPR_COL.fbx
-  artifactKey: Guid(7580cdc0a3b43c3468fb6f2ebd43521a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CactusPack/Meshes/Sprites/Cactus_Short_02_SPR_COL.fbx using Guid(7580cdc0a3b43c3468fb6f2ebd43521a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '098b240125ba3f78f706ff80811c2120') in 0.027527 seconds 
-  Import took 0.030615 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000211 seconds.
-  path: Assets/CactusPack/Meshes/Sprites/Cactus_Short_01_SPR.fbx
-  artifactKey: Guid(0786679865b69dc4384a466a1738cbfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CactusPack/Meshes/Sprites/Cactus_Short_01_SPR.fbx using Guid(0786679865b69dc4384a466a1738cbfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '528f1b1599ffe2723a0bf0e021215561') in 0.021743 seconds 
-  Import took 0.024601 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000232 seconds.
-  path: Assets/CactusPack/Meshes/Sprites/Cactus_Tall_01_SPR_COL.fbx
-  artifactKey: Guid(846a272773cc16c4dbf6106e3e274648) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CactusPack/Meshes/Sprites/Cactus_Tall_01_SPR_COL.fbx using Guid(846a272773cc16c4dbf6106e3e274648) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56a5359f927856f33b06a2db04047178') in 0.016770 seconds 
-  Import took 0.019705 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000243 seconds.
-  path: Assets/CactusPack/Meshes/Sprites/Cactus_Tall_04_SPR.fbx
-  artifactKey: Guid(3ccccaa1de96c5545a3cd21c9f029da1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CactusPack/Meshes/Sprites/Cactus_Tall_04_SPR.fbx using Guid(3ccccaa1de96c5545a3cd21c9f029da1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59dbf13e9dd60338fb22938e2fe28a9a') in 0.025270 seconds 
-  Import took 0.028667 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000238 seconds.
-  path: Assets/CactusPack/Meshes/Sprites/Cactus_Leafy_04_SPR.fbx
-  artifactKey: Guid(7635c3917aa872c44916102d3179ebcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CactusPack/Meshes/Sprites/Cactus_Leafy_04_SPR.fbx using Guid(7635c3917aa872c44916102d3179ebcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb463b7737b43a0b6a69785bfd35633c') in 0.017387 seconds 
-  Import took 0.020586 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000203 seconds.
-  path: Assets/CactusPack/Meshes/Sprites/Cactus_Leafy_02_SPR.fbx
-  artifactKey: Guid(52a63a2495f980f48b58d7bf10374fd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CactusPack/Meshes/Sprites/Cactus_Leafy_02_SPR.fbx using Guid(52a63a2495f980f48b58d7bf10374fd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7785bbcf611b6236a5f2bcb736a794d') in 0.020152 seconds 
-  Import took 0.023487 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000296 seconds.
-  path: Assets/CactusPack/Meshes/Sprites/Cactus_Tall_01_SPR.fbx
-  artifactKey: Guid(e30802f46d53b984f81c36cfcc0b64d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CactusPack/Meshes/Sprites/Cactus_Tall_01_SPR.fbx using Guid(e30802f46d53b984f81c36cfcc0b64d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f16072047bcc1493ccbf182a26eb8ca') in 0.021458 seconds 
-  Import took 0.026785 seconds .
+  Time since last request: 0.000348 seconds.
+  path: Assets/Models/WaterParts/Water/Water/Materials/WaterPlaneMaterial.mat
+  artifactKey: Guid(f1bc741ea0e69a241896582ddb633d55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/WaterParts/Water/Water/Materials/WaterPlaneMaterial.mat using Guid(f1bc741ea0e69a241896582ddb633d55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea122277bc7e3af45768d08f389ae791') in 0.010383 seconds 
+  Import took 0.014587 seconds .
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000235 seconds.
-  path: Assets/CactusPack/Meshes/Sprites/Cactus_Tall_02_SPR_COL.fbx
-  artifactKey: Guid(a277c0f3e404a9a4f87a7215920dccbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CactusPack/Meshes/Sprites/Cactus_Tall_02_SPR_COL.fbx using Guid(a277c0f3e404a9a4f87a7215920dccbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfe79a56f99ad7ef6f5fb8ac4295b52d') in 0.030983 seconds 
-  Import took 0.034853 seconds .
+  path: Assets/Models/WaterParts/Water (Basic)/Materials/WaterBasicNighttime.mat
+  artifactKey: Guid(c55afdc4a8a3b4890b07cc7d176510bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/WaterParts/Water (Basic)/Materials/WaterBasicNighttime.mat using Guid(c55afdc4a8a3b4890b07cc7d176510bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74a2ec8d468000bd8d6b1036b1372716') in 0.008824 seconds 
+  Import took 0.012107 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000198 seconds.
-  path: Assets/CactusPack/Meshes/Sprites/Rock_Large_SPR.fbx
-  artifactKey: Guid(2211334b7cb61a747a93970617bdeb7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CactusPack/Meshes/Sprites/Rock_Large_SPR.fbx using Guid(2211334b7cb61a747a93970617bdeb7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d473c5dff0fcc7fe106d42d0bbfb9f1') in 0.023199 seconds 
-  Import took 0.026171 seconds .
+  Time since last request: 0.000279 seconds.
+  path: Assets/Models/WaterParts/Water/Water4/Materials/Water4Simple.mat
+  artifactKey: Guid(656fde119942645aa8e062e04c119aa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/WaterParts/Water/Water4/Materials/Water4Simple.mat using Guid(656fde119942645aa8e062e04c119aa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '878ff137203917d387925b4570bc4eb9') in 0.011801 seconds 
+  Import took 0.015187 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000230 seconds.
-  path: Assets/CactusPack/Meshes/Sprites/Cactus_Tall_04_SPR_COL.fbx
-  artifactKey: Guid(8f4c38f68c24e3e4881053cd05912b6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CactusPack/Meshes/Sprites/Cactus_Tall_04_SPR_COL.fbx using Guid(8f4c38f68c24e3e4881053cd05912b6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abd7ba5ae332421eb0363a5ac60c20f5') in 0.020115 seconds 
-  Import took 0.023018 seconds .
+  Time since last request: 147.940332 seconds.
+  path: Assets/Textures/NewLayer.terrainlayer
+  artifactKey: Guid(465e905230190456c9867365eff168f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/NewLayer.terrainlayer using Guid(465e905230190456c9867365eff168f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7dc57ca5ebbb30368262f7b6c78bb3e1') in 0.413553 seconds 
+  Import took 0.416428 seconds .
 
 ========================================================================
-Received Import Request.
-  Time since last request: 0.000207 seconds.
-  path: Assets/CactusPack/Meshes/Sprites/Cactus_Leafy_02_SPR_COL.fbx
-  artifactKey: Guid(4b2668649840f3b46aaafc727815f318) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CactusPack/Meshes/Sprites/Cactus_Leafy_02_SPR_COL.fbx using Guid(4b2668649840f3b46aaafc727815f318) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74fdc2bd7fbb36d69325c6024791a2c6') in 0.022674 seconds 
-  Import took 0.025936 seconds .
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001759 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.57 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.175 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.75 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1573 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 208.6 MB.
+System memory in use after: 208.7 MB.
 
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 2157.
+Total: 3.219788 ms (FindLiveObjects: 0.488629 ms CreateObjectMapping: 0.103009 ms MarkObjects: 2.606269 ms  DeleteObjects: 0.020431 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003922 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.58 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.290 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.41 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1573 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 209.1 MB.
+System memory in use after: 209.2 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 2160.
+Total: 2.042051 ms (FindLiveObjects: 0.155361 ms CreateObjectMapping: 0.047948 ms MarkObjects: 1.822865 ms  DeleteObjects: 0.015058 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006079 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.34 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.067 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.34 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1573 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 209.6 MB.
+System memory in use after: 209.7 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 2163.
+Total: 1.565877 ms (FindLiveObjects: 0.133837 ms CreateObjectMapping: 0.039173 ms MarkObjects: 1.380511 ms  DeleteObjects: 0.011726 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000249 seconds.
-  path: Assets/CactusPack/Meshes/Sprites/Cactus_Tall_03_SPR_COL.fbx
-  artifactKey: Guid(185e2b6e23adbf64eb33809152b58e1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CactusPack/Meshes/Sprites/Cactus_Tall_03_SPR_COL.fbx using Guid(185e2b6e23adbf64eb33809152b58e1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d1b42bb2f74cd9a387d88e32fdb4427') in 0.013025 seconds 
-  Import took 0.015954 seconds .
+  Time since last request: 1209.638359 seconds.
+  path: Assets/Scenes/Exercise_3-3.unity
+  artifactKey: Guid(e642c049cbb4d7a4e9ac86004ae709a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Exercise_3-3.unity using Guid(e642c049cbb4d7a4e9ac86004ae709a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34c4ec51c9bc83aff3b137843d2385a6') in 0.013093 seconds 
+  Import took 0.016925 seconds .
 
 ========================================================================
-Received Import Request.
-  Time since last request: 0.000207 seconds.
-  path: Assets/CactusPack/Meshes/Sprites/Rock_Medium_SPR_COL.fbx
-  artifactKey: Guid(d5fcf2254a2d36b4e8d53d3960dfcdf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CactusPack/Meshes/Sprites/Rock_Medium_SPR_COL.fbx using Guid(d5fcf2254a2d36b4e8d53d3960dfcdf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b23ee8d5546f3e01a157f9e8a2b7d988') in 0.021818 seconds 
-  Import took 0.024790 seconds .
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004322 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.38 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.032 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.43 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1573 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 210.1 MB.
+System memory in use after: 210.2 MB.
 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000244 seconds.
-  path: Assets/CactusPack/Meshes/Sprites/Cactus_Leafy_03_SPR_COL.fbx
-  artifactKey: Guid(a91295e0a473a9941952d79832075142) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CactusPack/Meshes/Sprites/Cactus_Leafy_03_SPR_COL.fbx using Guid(a91295e0a473a9941952d79832075142) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da670d413f6fc1bd8116e7f62f77680e') in 0.022642 seconds 
-  Import took 0.026470 seconds .
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 2166.
+Total: 1.795488 ms (FindLiveObjects: 0.280097 ms CreateObjectMapping: 0.089847 ms MarkObjects: 1.413155 ms  DeleteObjects: 0.011752 ms)
 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000219 seconds.
-  path: Assets/CactusPack/Meshes/Sprites/Cactus_Short_03_SPR_COL.fbx
-  artifactKey: Guid(69b3d82001c630b4a815362a87944b86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CactusPack/Meshes/Sprites/Cactus_Short_03_SPR_COL.fbx using Guid(69b3d82001c630b4a815362a87944b86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3c3ed4be72c056437e0960b32237ad9') in 0.019108 seconds 
-  Import took 0.022128 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000254 seconds.
-  path: Assets/CactusPack/Meshes/Sprites/Cactus_Leafy_05_SPR_COL.fbx
-  artifactKey: Guid(92a88a6f51f25554d98c1080f9ec7750) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CactusPack/Meshes/Sprites/Cactus_Leafy_05_SPR_COL.fbx using Guid(92a88a6f51f25554d98c1080f9ec7750) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffe3d5b4ff34297fd59305e0a6f04dac') in 0.014222 seconds 
-  Import took 0.017433 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000297 seconds.
-  path: Assets/CactusPack/Meshes/Sprites/Rock_Medium_SPR.fbx
-  artifactKey: Guid(5354aeda77cc9214180891c86287ae8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CactusPack/Meshes/Sprites/Rock_Medium_SPR.fbx using Guid(5354aeda77cc9214180891c86287ae8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22ef93544c1c4047b8293003d8c7a177') in 0.021068 seconds 
-  Import took 0.024464 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000200 seconds.
-  path: Assets/CactusPack/Meshes/Sprites/Rock_Cone_SPR.fbx
-  artifactKey: Guid(e74ad652641adaf4594eac232cbe08d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CactusPack/Meshes/Sprites/Rock_Cone_SPR.fbx using Guid(e74ad652641adaf4594eac232cbe08d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e72f03aa834c265c42c6593074e0e57c') in 0.022392 seconds 
-  Import took 0.026382 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000223 seconds.
-  path: Assets/CactusPack/Meshes/Sprites/Rock_Large_SPR_COL.fbx
-  artifactKey: Guid(c7c997e37efadf64f894ef7ad6d66b2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CactusPack/Meshes/Sprites/Rock_Large_SPR_COL.fbx using Guid(c7c997e37efadf64f894ef7ad6d66b2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7ce1a26ffc2d27199b2d5c2dfc2f8a1') in 0.022086 seconds 
-  Import took 0.025302 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000254 seconds.
-  path: Assets/CactusPack/Meshes/Sprites/Cactus_Leafy_05_SPR.fbx
-  artifactKey: Guid(0ff1be62de3432a4ebdaf96133f87f6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CactusPack/Meshes/Sprites/Cactus_Leafy_05_SPR.fbx using Guid(0ff1be62de3432a4ebdaf96133f87f6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f88f8fa57c788ef62de8c01a8f27db5a') in 0.026144 seconds 
-  Import took 0.028952 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.629420 seconds.
-  path: Assets/CactusPack/Meshes/Materials/CactusPack_Atlas.mat
-  artifactKey: Guid(8093a22d87ca55242b463c5692dd3b83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CactusPack/Meshes/Materials/CactusPack_Atlas.mat using Guid(8093a22d87ca55242b463c5692dd3b83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '124fc7d3d80f0989e32cc0594e54f8e0') in 0.034530 seconds 
-  Import took 0.037725 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000197 seconds.
-  path: Assets/CactusPack/Meshes/Materials/DarkGrey.mat
-  artifactKey: Guid(7fcfbc86e7cecc34d9571bcf0024f105) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CactusPack/Meshes/Materials/DarkGrey.mat using Guid(7fcfbc86e7cecc34d9571bcf0024f105) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a7da75729c26b4e18b157dfc755e132') in 0.206941 seconds 
-  Import took 0.209574 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000175 seconds.
-  path: Assets/CactusPack/Meshes/Materials/CactusPack_Sprites.mat
-  artifactKey: Guid(b822460237915794c9a69bea38823469) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CactusPack/Meshes/Materials/CactusPack_Sprites.mat using Guid(b822460237915794c9a69bea38823469) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcd09060395500cb2107569c634d7aca') in 0.031638 seconds 
-  Import took 0.034245 seconds .
-
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
